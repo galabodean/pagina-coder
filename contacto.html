@@ -43,22 +43,23 @@
 <body>
 <div class="caja_Contacto">
 
+  <div class="TituloContacto">
     <div class="cajaTitulo">
       <h1 class="tituloseccion">CONTACTO</h1>
     </div>
+  </div>
 
     <div class="cajaForm">
-      <form method="get">
+      <form method="post">
 
         <div class="nombreYMail">
           <div class="cajaseccion1">
-            <p>Nombre: <input type="text" name="nombre" size="40"></p>
+            <input type="text" placeholder="Nombre" name="nombre" size="40">
           </div>
-          <div class="cajaseccion1">
-            <p>Correo: <input type="text" name="nombre" size="40"></p>
+          <div class="cajaseccion2">
+            <input type="text" placeholder="Correo" name="nombre" size="40">
           </div>
         </div>
-        
         <div class="cajaConsulta">
          <p>Motivo de consulta
          <select name="menu">
@@ -72,13 +73,11 @@
          <p>¿En qué puedo ayudarte?</p>
          <textarea name="texto" rows="13" cols="90"></textarea>
         </div>
-        <div class="cajaEnviar">
-         <p>
-          <input type="submit" value="Enviar">
-         </p>
-        </div>
+
+        <input type="submit" value="Enviar">
       </form>
     </div>
+
 </div>
 
 <!--FOOTER START-->
