@@ -1,0 +1,81 @@
+.Boton__caja{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-family: $titulo-principal-fuente;
+	font-size: 15px;
+	width: 425px;
+	padding-top: 70px;
+}
+
+.Boton{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	background-color: #47E2C4;
+
+	border-radius: 40px;
+	width: 140px;
+	height: 40px;
+}
+.Boton__Texto--modified{
+ font-size: 12px;
+ text-decoration: none;
+ color: white;
+}
+.Boton--modified-Bibliografia{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	border-color: #47E2C4;
+	border-width: 2px;
+	 border-style: solid;
+
+	border-radius: 40px;
+	width: 140px;
+	height: 40px;	
+}
+
+.Boton--modified-Blog{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+
+	font-family: $titulo-principal-fuente;
+
+	border-color: #d4ba4e;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 40px;
+
+	margin-top: 15px;
+
+	width: 105px;
+	height: 30px;
+}
+.Boton--modified--Blog-2{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	font-family: $titulo-principal-fuente;
+
+	background-color: #d4ba4e;
+
+	border-radius: 40px;
+	width: 170px;
+	height: 40px;	
+}
+.Boton__Texto{
+	text-decoration: none;
+	color: white;
+}
+.Boton:hover {
+	background-color:#B2B2B2 ;
+}

@@ -17,25 +17,147 @@ nav ul {
   justify-content: space-around;
   align-content: space-around; }
 
-.linkindex {
+.menu__link {
   text-decoration: none;
   color: black; }
 
-.lineas {
+.menu__lineas-index {
   border-bottom-size: 10px;
   border-bottom-style: solid;
   border-bottom-color: #47E2C4; }
 
-.lineas_SobreMi {
+.menu__lineas-SobreMi {
   border-bottom-size: 10px;
   border-bottom-style: solid;
   border-bottom-color: #C63CA2; }
 
+.menu__lineas-formacion {
+  border-bottom-size: 10px;
+  border-bottom-style: solid;
+  border-bottom-color: #E04CAB; }
+
+.menu__lineas-contacto {
+  border-bottom-size: 10px;
+  border-bottom-style: solid;
+  border-bottom-color: #E8E8E8; }
+
+.menu__lineas-blog {
+  border-bottom-size: 10px;
+  border-bottom-style: solid;
+  border-bottom-color: #E8CF64; }
+
+.menu__lineas-bibliografia {
+  border-bottom-size: 10px;
+  border-bottom-style: solid;
+  border-bottom-color: #47E2C4; }
+
 header {
   box-shadow: 0 0 10px #5B5B5B;
+  z-index: 1;
   background-color: white;
   position: fixed;
   width: 100%; }
+
+.Titulo-Principal {
+  font-family: "Patua One", cursive;
+  font-size: 38px; }
+
+.Subtitulo--modified {
+  font-family: "Patua One", cursive;
+  font-size: 17px;
+  width: 430px;
+  text-align: left;
+  padding-bottom: 30px; }
+
+.Descripcion {
+  position: absolute;
+  top: 240px;
+  left: 320px;
+  width: 622px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold; }
+
+.Descripcion--modified {
+  position: absolute;
+  text-align: center;
+  top: 1700px;
+  margin-left: 300px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  width: 740px; }
+
+.Boton__caja {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Patua One", cursive;
+  font-size: 15px;
+  width: 425px;
+  padding-top: 70px; }
+
+.Boton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #47E2C4;
+  border-radius: 40px;
+  width: 140px;
+  height: 40px; }
+
+.Boton__Texto--modified {
+  font-size: 12px;
+  text-decoration: none;
+  color: white; }
+
+.Boton--modified-Bibliografia {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-color: #47E2C4;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 40px;
+  width: 140px;
+  height: 40px; }
+
+.Boton--modified-Blog {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Patua One", cursive;
+  border-color: #d4ba4e;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 40px;
+  margin-top: 15px;
+  width: 105px;
+  height: 30px; }
+
+.Boton--modified--Blog-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Patua One", cursive;
+  background-color: #d4ba4e;
+  border-radius: 40px;
+  width: 170px;
+  height: 40px; }
+
+.Boton__Texto {
+  text-decoration: none;
+  color: white; }
+
+.Boton:hover {
+  background-color: #B2B2B2; }
+
+.Bibliografia__Banner__Caja {
+  height: 382px; }
 
 /***INDEX***/
 .cajainicio {
@@ -45,7 +167,7 @@ header {
   padding-top: 80px;
   height: 600px;
   background-color: #47E2C4;
-  background-image: url(mediacoder/fondo1.png);
+  background-image: url(../mediacoder/fondo1.png);
   background-size: cover; }
 
 .section-titulos {
@@ -57,15 +179,17 @@ header {
   justify-content: space-between;
   margin-top: 30px; }
 
+#cajatitulo {
+  font-family: "Patua One", cursive;
+  font-size: 38px; }
+
 .titulo {
   text-align: left;
-  font-family: 'Patua One', cursive;
-  letter-spacing: 1px;
-  font-size: 45px; }
+  letter-spacing: 1px; }
 
 .SubtituloIndex {
   font-size: 17px;
-  font-family: 'Patua One', cursive; }
+  font-family: "Patua One", cursive; }
 
 .cajadescripcion {
   margin-top: 30px;
@@ -81,41 +205,42 @@ header {
   margin-top: 100px; }
 
 .logo {
-  /*filter: drop-shadow(4px 3px 6px #5B5B5B) ;*/
+  filter: drop-shadow(4px 3px 6px #5B5B5B);
   width: 458px;
   height: 370px; }
 
 /*FRASE*/
-.cajaFrase {
+.Frase {
   display: flex;
+  justify-content: space-around;
   align-items: center;
-  align-content: center;
   height: 640px;
   background-color: #E04CAB;
-  background-image: url(mediacoder/fondo2.png);
+  background-image: url(../mediacoder/fondo2.png);
   background-size: cover; }
 
-.frase {
+.Frase__texto {
   font-family: 'Montserrat', sans-serif;
-  font-size: 55px;
-  line-height: 1.3;
+  font-size: 45px;
+  line-height: 1.6;
+  letter-spacing: 0.6px;
   text-align: center;
-  color: white; }
+  color: #b5188c; }
 
 /*BLOG INDEX*/
-.cajablog {
+.Blog {
   height: 1560px;
   background-color: #E2C960;
   padding-top: 60px; }
 
-.cajaTituloSeccion {
+.Blog__Titulo-Principal-Caja {
   display: flex;
   justify-content: center;
-  font-family: 'Patua One', cursive;
+  font-family: "Patua One", cursive;
   font-size: 25px;
   margin-bottom: 50px; }
 
-.entradas {
+.Blog__Entradas {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -133,24 +258,21 @@ header {
   border-radius: 150px;
   margin-bottom: 10px; }
 
-.cajaTituloEntrada {
-  font-family: 'Patua One', cursive;
-  font-size: 20px; }
+.Blog__Entrada-Titulo {
+  font-family: "Patua One", cursive;
+  font-size: 17px; }
 
-.cajaTextoEntrada {
+.Blog__Entrada-Texto-Caja {
   font-family: 'Montserrat', sans-serif;
-  font-size: 15px; }
+  font-size: 15px;
+  text-align: center; }
 
-.cajaEntrada1 {
-  height: 630px;
-  width: 320px; }
-
-.cajaEntrada2 {
-  height: 630px;
-  width: 320px; }
-
-.cajaEntrada3 {
-  height: 630px;
+.Blog__Entrada {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 635px;
   width: 320px; }
 
 .cajaSeguirLeyendo {
@@ -175,7 +297,7 @@ header {
   color: white; }
 
 /*BIBLIO INDEX*/
-.cajaBiblio {
+.Bibliografia-Index {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -183,63 +305,37 @@ header {
   height: 620px;
   background-color: #3ECEB3; }
 
-.imagenBiblio {
+.Bibliografia-Index__Imagen {
   height: 620px; }
 
-.seccionBiblio {
+.Bibliografia-Index__Descripcion {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   align-content: space-around;
   width: 612px;
-  padding-bottom: 150px; }
+  padding-bottom: 40px; }
 
-.cajaTituloSeccion2 {
-  font-family: 'Patua One', cursive;
+.Bibliografia-Index__Titulo-Principal-Caja {
+  font-family: "Patua One", cursive;
   font-size: 25px;
   width: 430px;
   text-align: left;
-  padding-bottom: 40px; }
+  padding-bottom: 30px; }
 
-.cajaTituloEntrada--modified {
-  font-family: 'Patua One', cursive;
-  font-size: 20px; }
-
-.cajaTextoEntrada--modified {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
+.Bibliografia-Index__Titulo-Caja {
+  font-family: "Patua One", cursive;
+  font-size: 17px;
+  margin-top: 10px;
+  margin-bottom: 20px;
   width: 430px; }
 
-.cajaBotones {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-family: 'Patua One', cursive;
+.Bibliografia-Index__Texto-Descripcion {
+  font-family: 'Montserrat', sans-serif;
   font-size: 15px;
-  width: 425px;
-  padding-top: 70px; }
-
-.cajaComprar {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  background-color: #47E2C4;
-  border-radius: 40px;
-  width: 140px;
-  height: 40px; }
-
-.cajaComprar:hover {
-  background-color: #B2B2B2; }
-
-.Comprar {
-  text-decoration: none;
-  color: black; }
-
-.SeguirLeyendo {
-  text-decoration: none;
-  color: white; }
+  line-height: 1.5;
+  width: 430px; }
 
 /****BIBLIO INDEX END***/
 /******************* CAJA TITULOS *******************/
@@ -248,7 +344,7 @@ header {
   justify-content: center;
   align-items: flex-end;
   height: 150px;
-  font-family: 'Patua One', cursive;
+  font-family: "Patua One", cursive;
   font-size: 23px; }
 
 /******************* CAJA TITULOS *******************/
@@ -277,7 +373,7 @@ header {
   justify-content: space-around;
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
-  background-image: url(mediacoder/fondo3.png);
+  background-image: url(../mediacoder/fondo3.png);
   background-size: cover;
   height: 630px;
   background-color: #E8E8E8; }
@@ -327,38 +423,33 @@ input[type="text"] {
 /****CONTACTO END***/
 /****BIBLIOGRAFÍA START***/
 .caja_Bibliografía {
-  height: 3030px;
+  height: 3140px;
   background-color: #47E2C4; }
-
-.cajaBanner1 {
-  padding-top: 60px;
-  height: 382px; }
 
 .banner_Bibliografia {
   box-shadow: 0px 0px 10px #5B5B5B; }
 
-.tituloBanner {
+.Bibliografia_Banner_Titulo {
   position: absolute;
   top: 180px;
-  left: 390px;
+  margin-left: 420px;
   text-shadow: -2px 0px 3px #B2B2B2;
-  font-family: 'Patua One', cursive;
-  font-size: 25px; }
+  font-family: "Patua One", cursive;
+  font-size: 38px; }
 
-.descripcionBanner {
+.Bibliografia_Banner_Titulo2 {
   position: absolute;
-  top: 240px;
-  left: 320px;
-  width: 622px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-  text-align: center; }
+  top: 1600px;
+  margin-left: 350px;
+  text-shadow: -2px 0px 3px #B2B2B2;
+  font-family: "Patua One", cursive;
+  font-size: 38px; }
 
 .cajaEnlaces {
   display: flex;
   align-items: flex-end;
   justify-content: space-around;
-  font-family: 'Patua One', cursive;
+  font-family: "Patua One", cursive;
   font-size: 20px;
   letter-spacing: 2px;
   color: black;
@@ -382,7 +473,7 @@ input[type="text"] {
 
 .descripcionBiblio {
   margin-top: 15px;
-  font-family: 'Patua One', cursive;
+  font-family: "Patua One", cursive;
   font-size: 25px; }
 
 .itemBiblio {
@@ -402,7 +493,7 @@ input[type="text"] {
 
 .vermas {
   text-decoration: none;
-  font-family: 'Patua One', cursive;
+  font-family: "Patua One", cursive;
   font-size: 15px;
   color: white; }
 
@@ -415,7 +506,7 @@ input[type="text"] {
   top: 1760px;
   left: 450px;
   text-shadow: -2px 0px 3px #B2B2B2;
-  font-family: 'Patua One', cursive;
+  font-family: "Patua One", cursive;
   font-size: 25px; }
 
 .descripcionBanner2 {
@@ -432,7 +523,7 @@ input[type="text"] {
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  font-family: 'Patua One', cursive;
+  font-family: "Patua One", cursive;
   font-size: 20px;
   height: 250px;
   width: 100%; }
@@ -453,14 +544,15 @@ input[type="text"] {
 
 /****BIBLIOGRAFÍA END***/
 /****FORMACIÓN START***/
-.TituloFormacion {
+.Formacion__Titulo__Caja {
+  background-image: url(../mediacoder/fondoformacion.png);
   background-color: #E04CAB; }
 
 .caja_CursosVirtuales {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  font-family: 'Patua One', cursive;
+  font-family: "Patua One", cursive;
   font-size: 20px;
   height: 160px; }
 
@@ -486,7 +578,7 @@ input[type="text"] {
 
 .TituloFormacion {
   text-align: center;
-  font-family: 'Patua One', cursive;
+  font-family: "Patua One", cursive;
   font-size: 25px;
   background-image: url(mediacoder/fondoformacion.png); }
 
@@ -508,7 +600,7 @@ input[type="text"] {
 .subtitulo1 {
   letter-spacing: 0.5px;
   text-align: center;
-  font-family: 'Patua One', cursive;
+  font-family: "Patua One", cursive;
   font-size: 18px;
   color: white; }
 
@@ -537,7 +629,7 @@ input[type="text"] {
 
 .comprar {
   text-decoration: none;
-  font-family: 'Patua One', cursive;
+  font-family: "Patua One", cursive;
   font-size: 20px;
   color: white; }
 
@@ -552,7 +644,7 @@ input[type="text"] {
   align-content: space-around; }
 
 .preguntasFrecuentes {
-  font-family: 'Patua One', cursive;
+  font-family: "Patua One", cursive;
   font-size: 40px; }
 
 .FAQ {
@@ -572,7 +664,7 @@ details {
 
 summary {
   padding: 5px 0 0 7px;
-  font-family: 'Patua One', cursive;
+  font-family: "Patua One", cursive;
   font-size: 20px;
   color: white; }
 
@@ -583,103 +675,69 @@ summary {
 
 /****FORMACIÓN END***/
 /****SOBRE MI START***/
-.TituloSobreMi1 {
-  background-image: url(mediacoder/fondosobremi.png);
-  background-repeat: no-repeat;
-  background-color: #C63CA2; }
-
-.caja_SobreMi {
-  padding-top: 80px;
-  height: 400px; }
-
-.tituloSobreMi {
+.SobreMi__Decripcion-Caja {
+  background-color: yellow;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(../mediacoder/bannersobremi.jpg);
+  background-size: cover;
+  height: 442px; }
+
+.SobreMi-Titulo-Caja {
+  height: 80px; }
+
+.SobreMi-Titulo {
+  align-content: center;
   padding-top: 90px;
-  font-family: 'Patua One', cursive;
+  font-family: "Patua One", cursive;
   font-size: 25px; }
 
-.descripcionSobreMi {
-  display: grid;
-  grid-template-columns: 490px 540px;
-  grid-template-rows: auto;
-  grid-template-areas: "silvina caja_TextoSobreMi";
-  grid-column-gap: 30px; }
-
-.silvina {
-  grid-area: silvina;
-  justify-self: end; }
-
-.caja_TextoSobreMi {
-  grid-area: caja_TextoSobreMi;
-  align-self: center;
-  width: 500px; }
-
-.textoSobreMi {
+.SobreMi-texto {
   font-family: 'Montserrat', sans-serif;
-  font-size: 18px; }
+  font-size: 18px;
+  text-align: center;
+  width: 622px; }
 
-.fotos_SobreMi {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: 1fr 1fr;
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
-  grid-template-areas: "sobremi1" "cuadro1" "sobremi2" "cuadro2" "sobremi3" "cuadro3" "sobremi4" "cuadro4" "sobremi5" "cuadro5";
-  height: 650px;
+.SobreMi__Fotos_caja {
+  height: 720px;
   background-color: #E8E8E8; }
 
-.cuadro1 {
-  grid-area: cuadro1;
+.SobreMi__Fotos_caja1 {
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+  margin-left: 70px;
+  width: 1100px; }
+
+.SobreMi__Fotos_caja2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-left: 100px;
+  width: 1000px; }
+
+.SobreMi__Fotos__Texto {
   font-family: 'Montserrat', sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
-  font-weight: 200;
-  width: 120px; }
+  font-weight: 400;
+  line-height: 1.3;
+  color: #C63CA2;
+  margin-top: 100px;
+  width: 190px; }
 
-.sobremi1 {
-  grid-area: sobremi1; }
-
-.sobremi2 {
-  grid-area: sobremi2; }
-
-.sobremi3 {
-  grid-area: sobremi3; }
-
-.sobremi4 {
-  grid-area: sobremi4; }
-
-.sobremi5 {
-  grid-area: sobremi5; }
-
-.cuadro2 {
-  grid-area: cuadro2;
+.SobreMi__Fotos__Texto--modified {
   font-family: 'Montserrat', sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
-  font-weight: 200; }
-
-.cuadro3 {
-  grid-area: cuadro3;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 25px;
-  text-align: center;
-  font-weight: 200; }
-
-.cuadro4 {
-  grid-area: cuadro4;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 25px;
-  text-align: center;
-  font-weight: 200;
-  width: 120px; }
-
-.cuadro5 {
-  grid-area: cuadro5;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 25px;
-  text-align: center;
-  font-weight: 200; }
+  font-weight: 400;
+  line-height: 1.3;
+  color: #C63CA2;
+  margin-top: 100px;
+  margin-right: 15px;
+  margin-left: 15px; }
 
 .cursosYCharlas {
   display: flex;
@@ -708,7 +766,7 @@ summary {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-family: 'Patua One', cursive;
+  font-family: "Patua One", cursive;
   font-size: 45px;
   height: 100px; }
 
@@ -720,7 +778,7 @@ summary {
 
 .titulo_curso {
   text-align: center;
-  font-family: 'Patua One', cursive;
+  font-family: "Patua One", cursive;
   font-size: 20px;
   letter-spacing: 0.6px;
   color: #E8E8E8; }

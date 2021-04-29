@@ -1,0 +1,37 @@
+//ESTILOS TIPOGRAFIA
+$titulo-principal-fuente: 'Patua One', cursive;
+$titulo-principal-tamanio: 38px;
+
+$titulo-h2-tamanio: 17px;
+
+//ESTILOS APLICADOS
+.Titulo-Principal{
+	font-family: $titulo-principal-fuente;
+	font-size: $titulo-principal-tamanio;
+}
+.Subtitulo--modified{
+	font-family: $titulo-principal-fuente;
+	font-size: $titulo-h2-tamanio;
+	width: 430px;
+	text-align: left;
+	padding-bottom: 30px
+}
+.Descripcion{
+	position: absolute;
+	top: 240px;
+	left: 320px;
+	width: 622px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+.Descripcion--modified{
+	position: absolute;
+text-align: center;
+	top: 1700px;
+	margin-left: 300px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	width: 740px;
+}
