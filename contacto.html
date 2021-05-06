@@ -4,10 +4,11 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Contacto</title>
-  <link rel="stylesheet" href="../repositorio/css/main.css">
+  <link rel="stylesheet" href="./css/main.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Patua+One&display=swap" rel="stylesheet">
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 </head>
 
 <body>
@@ -52,10 +53,10 @@
 
         <div class="nombreYMail">
           <div class="cajaseccion1">
-            <input type="text" placeholder="Nombre" name="nombre" size="40">
+            <input class="Nombre" type="text" placeholder="Nombre" name="nombre" size="20" >
           </div>
           <div class="cajaseccion2">
-            <input type="text" placeholder="Correo" name="nombre" size="40">
+            <input class="correo" type="text" placeholder="Correo" name="nombre" size="20">
           </div>
         </div>
         <div class="cajaConsulta">
@@ -72,7 +73,7 @@
          <textarea name="texto" rows="13" cols="90"></textarea>
         </div>
 
-        <input type="submit" value="Enviar">
+        <input type="submit" class="enviar" value="Enviar">
       </form>
     </div>
 
@@ -80,21 +81,24 @@
 
 <!--FOOTER START-->
 <footer>
-  <div class="parte1">
-  <P>Profesora Silvina Liliana Peirano</P>
-  <p>(Reg. 881835)</p>
-  <p>Buenos Aires, Argentina</p>
-  <p>2021</p>
-  </div>
-  <div class="parte2">
-    <div class="cajaIconos">
-      <span class="iconify" data-icon="akar-icons:facebook-fill" data-inline="false"></span>
-      <span class="iconify" data-icon="ant-design:twitter-circle-filled" data-inline="false"></span>
-      <span class="iconify" data-icon="whh:circleinstagram" data-inline="false" href="https://www.instagram.com/sexespecial/?hl=es-la"></span>
+  <div class="footer_caja">
+    <div class="parte1">
+      <P>Profesora Silvina Liliana Peirano</P>
+      <p>(Reg. 881835)</p>
+      <p>Buenos Aires, Argentina</p>
+      <p>2021</p>
     </div>
-    <p>formacionesidiscap@hotmail.com</p>
-    <div class="cajaSuscribite">
-      <a class="Suscribite" href="#">Suscribite para recibir novedades</a>
+    
+    <div class="parte2">
+      <div class="cajaIconos">
+        <a class="facebook" href="https://www.facebook.com/groups/112401172112900"><span class="iconify" data-icon="akar-icons:facebook-fill" data-inline="false"></span></a>
+        <a href="https://twitter.com/sexespecial?lang=es"><span class="iconify" data-icon="ant-design:twitter-circle-filled" data-inline="false"></span></a>
+        <a href="https://www.instagram.com/sexespecial/?hl=es-la"><span class="iconify" data-icon="whh:circleinstagram" data-inline="false"></span></a>
+      </div>
+      <p>formacionesidiscap@hotmail.com</p>
+      <div class="cajaSuscribite">
+        <a class="Suscribite" href="#">Suscribite para recibir novedades</a>
+      </div>
     </div>
   </div>
 </footer>

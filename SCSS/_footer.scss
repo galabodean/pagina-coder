@@ -1,0 +1,88 @@
+@media only screen and (max-width: 320px){
+footer{
+		display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+	width: 320px;
+}
+.Suscribite{
+	width: 140px;
+}
+.footer_caja{
+	width: 320px;
+	margin: 0 35px 0 55px;
+}
+.parte1{
+	font-size: 8px;
+}
+.parte2{
+	font-size: 8px;
+	}
+.cajaSuscribite{
+	height: 10px;
+	width: 150px;
+	background-color: #4F4F4F;
+	border-radius: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items:center;
+	}
+}
+
+//FOOTER
+footer{
+	width: 100%;
+	height: 250px;
+	background-color: #b2b2b2;
+}
+.footer_caja{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 250px;
+}
+footer>div{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+}
+
+.parte1{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 110px;
+}
+
+.parte2{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-content: space-around;
+	height: 110px;
+
+}
+
+.cajaIconos{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 80px;
+}
+.cajaSuscribite{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 30px;
+	width: relative;
+	background-color: #4F4F4F;
+	border-radius: 20px;
+
+}
+
+.Suscribite{
+	color: white;
+	text-decoration: none;
+}
