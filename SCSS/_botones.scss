@@ -1,8 +1,15 @@
+.Boton:hover {
+	background-color:#B2B2B2 ;
+}
+.Boton--modified_Formacion:hover{
+	background-color:#B2B2B2 ;	
+}
+//INDEX
 .Boton__caja{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	font-family: $titulo-principal-fuente;
+	font-family: $Tipografia-principal;
 	font-size: 15px;
 	width: 425px;
 	padding-top: 70px;
@@ -10,9 +17,8 @@
 
 .Boton{
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
+	justify-content: space-around;
+	align-items:center;
 
 	background-color: #47E2C4;
 
@@ -27,13 +33,12 @@
 }
 .Boton--modified-Bibliografia{
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
+	justify-content: space-around;
+	align-items:center;
 
 	border-color: #47E2C4;
 	border-width: 2px;
-	 border-style: solid;
+	border-style: solid;
 
 	border-radius: 40px;
 	width: 140px;
@@ -46,7 +51,7 @@
 	justify-content: space-around;
 	align-items: center;
 
-	font-family: $titulo-principal-fuente;
+	font-family: $Tipografia-principal;
 
 	border-color: #d4ba4e;
 	border-width: 2px;
@@ -58,24 +63,99 @@
 	width: 105px;
 	height: 30px;
 }
+.Caja_MasEntradas{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+
+	width: auto;
+	height: 120px;
+}
 .Boton--modified--Blog-2{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-
-	font-family: $titulo-principal-fuente;
+	font-family: $Tipografia-principal;
 
 	background-color: #d4ba4e;
 
 	border-radius: 40px;
-	width: 170px;
+	width: relative;
 	height: 40px;	
 }
 .Boton__Texto{
 	text-decoration: none;
 	color: white;
+	width: 170px;
+	text-align: center;
 }
-.Boton:hover {
-	background-color:#B2B2B2 ;
+
+//FORMACION
+.Boton--modified_Formacion{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+	border-radius: 30px 30px 30px 30px;
+
+	margin-top: 40px;
+
+	width: 100px;
+	height: 40px;
+	background-color: #E04CAB;
+}
+.Boton_caja--modified_Formacion{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+	width: 320px;
+}
+.Boton_comprar{
+	text-decoration: none;
+	font-family: $Tipografia-principal;
+	font-size: 20px;
+	color:white;
+}
+
+//Sobremi
+.Boton__SobreMi{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+	border-radius: 30px 30px 30px 30px;
+
+	font-family: $Tipografia-principal;
+	font-size: $boton-chico-tamanio;
+	text-decoration: none;
+	color: white;
+
+	margin-top: 10px;
+	padding:2px 5px 2px 5px;
+
+	width: relative;
+	height: relative;
+	background-color: #E04CAB;
+}
+.Boton__SobreMi--modified{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+	border-radius: 30px 30px 30px 30px;
+
+	font-family: $Tipografia-principal;
+	font-size: $boton-chico-tamanio;
+	text-decoration: none;
+	color: white;
+
+	margin-top: 10px;
+	padding:2px 5px 2px 5px;
+
+	width: relative;
+	height: relative;
+	background-color: #C63CA2;	
 }

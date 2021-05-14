@@ -1,37 +1,56 @@
 //ESTILOS TIPOGRAFIA
-$titulo-principal-fuente: 'Patua One', cursive;
+$Tipografia-principal: 'Patua One', cursive;
+$Tipografia-secundaria:'Montserrat', sans-serif ;
+
 $titulo-principal-tamanio: 38px;
+
+$Titulo-Principal-seccion-tamanio:45px;
+$Titulo-Principal-seccion-fuente:'Patua One', cursive;
+
+
 
 $titulo-h2-tamanio: 17px;
 
+$subtitulo-tamanio: 24px;
+
+$descripcion-tamanio:15px;
+
+$boton-chico-tamanio:15px;
+
+$titulo-principal-celular: 28px;
+$titulo-h1-celular:15px;
+$texto-celular:11px;
+
 //ESTILOS APLICADOS
 .Titulo-Principal{
-	font-family: $titulo-principal-fuente;
+	font-family: $Tipografia-principal;
 	font-size: $titulo-principal-tamanio;
 }
-.Subtitulo--modified{
-	font-family: $titulo-principal-fuente;
-	font-size: $titulo-h2-tamanio;
-	width: 430px;
-	text-align: left;
-	padding-bottom: 30px
+.Titulo-Principal-seccion{
+	font-family: $Tipografia-principal;
+	font-size: $Titulo-Principal-seccion-tamanio;
 }
-.Descripcion{
-	position: absolute;
-	top: 240px;
-	left: 320px;
-	width: 622px;
-	font-family: 'Montserrat', sans-serif;
+.Subtitulo_Seccion{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+	font-family: $Tipografia-principal;
 	font-size: 20px;
-	text-align: center;
-	font-weight: bold;
+
+	height: 160px;
 }
+
 .Descripcion--modified{
 	position: absolute;
-text-align: center;
+	text-align: center;
 	top: 1700px;
 	margin-left: 300px;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 	width: 740px;
+}
+.tituloFormacion{
+	font-family: $Tipografia-principal;
+	font-size: $subtitulo-tamanio;	
 }

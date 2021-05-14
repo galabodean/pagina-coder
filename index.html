@@ -4,6 +4,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale:1.0, user-scalable=no">
 	<title>Mitología de la sexualidad especial</title>
+	<meta name="description" content="Mitología de la sexualidad especial es un blog creado en 2010 por la prof. Silvina Peirano.">
+	<meta name="keywords"  content="Discapacidad, ESI, Sexualidad, Educación sexual, Diversidad funcional">
 	<link rel="stylesheet" href="./css/main.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Patua+One&display=swap" rel="stylesheet">
@@ -17,22 +19,22 @@
   <nav>
     <ul class="menu">
       <div class="menu__lineas-index">
-        <li class="itemindex"><a class="menu__link" href="./index.html.html">INICIO</a></li>
+        <li class="itemindex"><a class="menu__link" href="./index.html">INICIO</a></li>
       </div>
       <div class="menu__lineas-index">
-        <li class="itemindex"><a class="menu__link" href="./formacion.html">FORMACIÓN</a></li>
+        <li class="itemindex"><a class="menu__link" href="./pages/formacion.html">FORMACIÓN</a></li>
       </div>
       <div class="menu__lineas-index">
-        <li class="itemindex"><a class="menu__link" href="./bibliografia.html" >BIBLIOGRAFÍA</a></li>
+        <li class="itemindex"><a class="menu__link" href="./pages/bibliografia.html" >BIBLIOGRAFÍA</a></li>
       </div>
       <div class="menu__lineas-index">
-        <li class="itemindex"><a class="menu__link" href="./sobremi.html">SOBRE MI</a></li>
+        <li class="itemindex"><a class="menu__link" href="./pages/sobremi.html">SOBRE MI</a></li>
       </div>
       <div class="menu__lineas-index">
-        <li class="itemindex"><a class="menu__link" href="./blog.html">BLOG</a></li>
+        <li class="itemindex"><a class="menu__link" href="./pages/blog.html">BLOG</a></li>
       </div>
       <div class="menu__lineas-index">
-        <li class="itemindex"><a class="menu__link" href="./contacto.html">CONTACTO</a></li>
+        <li class="itemindex"><a class="menu__link" href="./pages/contacto.html">CONTACTO</a></li>
       </div>
     </ul>
   </nav>
@@ -41,7 +43,7 @@
 
 <!--INDEX START-->
 	<div class="cajainicio">
-		<section class="section-titulos">
+		<div class="section-titulos">
 			<div id="cajatitulo">
 				<h1 class="Titulo-Principal">MITOLOGÍA DE LA <br> SEXUALIDAD ESPECIAL</h1>
 			</div>
@@ -56,12 +58,10 @@
 					Ex-Capacitadora en Educación sexual integral; Ministerio de Educación de la Nación.Creadora de “Mitología de la sexualidad especial” y “SEX Asistent”. Directora del “Centro Julia Pastrana - Espacio de sexualidad”.Co-directora del curso “Orientador/ra en sexualidad y diversidad funcional”.Ex Directora del curso: “Sexualidad con perspectiva en diversidad funcional” Centro Universitario del Gran Rosario (Rosario, Santa Fe).Disertante y conferencista nacional e internacional.
 				</p>
 			</div>
-		</section>
-		<section class="section-logo">
-		<div id="cajalogo">
-			<img src="mediacoder/venus.png" class="logo" width="300">
 		</div>
-		</section>
+		<div id="cajalogo">
+			<img src="mediacoder/venus.png" class="logo">
+		</div>
 	</div>
 <!--INDEX END-->
 
@@ -93,10 +93,10 @@
 		</div>
 		<div class="Boton__caja">
 			<div class="Boton">
-				<a class="Boton__Texto" href="./bibliografia.html">Comprar</a>
+				<a class="Boton__Texto" href="./pages/formacion.html">Comprar</a>
 			</div>
 			<div class="Boton--modified-Bibliografia">
-				<a class="Boton__Texto" href="./bibliografia.html">Seguir leyendo</a>
+				<a class="Boton__Texto" href="./pages/formacion.html">Seguir leyendo</a>
 			</div>
 		</div>
 	</div>
@@ -104,7 +104,7 @@
 <!--BIBLIOGRAFIA END-->
 
 <!--BLOG START-->
-<div class="Blog">
+<div class="Blog-Index">
 	<div class="Blog__Titulo-Principal-Caja">
 		<h2 class="Titulo-Principal">BLOG</h2>
 	</div>
@@ -213,31 +213,36 @@
 				</div>
 			</div>
 	</div>
-	<div class="Boton--modified--Blog-2">
-		<a class="Boton__Texto" href="./blog.html">Ver entradas antigüas</a>
+	<div class="Caja_MasEntradas">
+		<div class="Boton--modified--Blog-2">
+			<a class="Boton__Texto" href="./blog.html">Ver entradas antigüas</a>
+		</div>
 	</div>
 </div>
 <!--BLOG END-->
 
 <!--FOOTER START-->
 <footer>
-	<div class="parte1">
-	<P>Profesora Silvina Liliana Peirano</P>
-	<p>(Reg. 881835)</p>
-	<p>Buenos Aires, Argentina</p>
-	<p>2021</p>
-	</div>
-	<div class="parte2">
-		<div class="cajaIconos">
-			<span class="iconify" data-icon="akar-icons:facebook-fill" data-inline="false"></span>
-			<span class="iconify" data-icon="ant-design:twitter-circle-filled" data-inline="false"></span>
-			<span class="iconify" data-icon="whh:circleinstagram" data-inline="false" href="https://www.instagram.com/sexespecial/?hl=es-la"></span>
-		</div>
-		<p>formacionesidiscap@hotmail.com</p>
-		<div class="cajaSuscribite">
-			<a class="Suscribite" href="#">Suscribite para recibir novedades</a>
-		</div>
-	</div>
+  <div class="footer_caja">
+    <div class="parte1">
+      <P>Profesora Silvina Liliana Peirano</P>
+      <p>(Reg. 881835)</p>
+      <p>Buenos Aires, Argentina</p>
+      <p>2021</p>
+    </div>
+    
+    <div class="parte2">
+      <div class="cajaIconos">
+        <a class="facebook" href="https://www.facebook.com/groups/112401172112900"><span class="iconify" data-icon="akar-icons:facebook-fill" data-inline="false"></span></a>
+        <a href="https://twitter.com/sexespecial?lang=es"><span class="iconify" data-icon="ant-design:twitter-circle-filled" data-inline="false"></span></a>
+        <a href="https://www.instagram.com/sexespecial/?hl=es-la"><span class="iconify" data-icon="whh:circleinstagram" data-inline="false"></span></a>
+      </div>
+      <p>formacionesidiscap@hotmail.com</p>
+      <div class="cajaSuscribite">
+        <a class="Suscribite" href="#">Suscribite para recibir novedades</a>
+      </div>
+    </div>
+  </div>
 </footer>
 </body>
 </html>

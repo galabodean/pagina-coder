@@ -1,2 +1,16 @@
 $sombreado-texto:-2px 0px 3px #B2B2B2;
 $sombreado-caja: 0px 0px 10px #5B5B5B;
+
+//BIBLIOGRAFIA
+.imagen_entrada{
+	transition: all 0.7s;
+}
+.imagen_entrada:hover{
+	transform: scale(1.1);}
+
+.imagenRedonda--modified{
+	transition: all 0.7s;	
+}
+.imagenRedonda--modified:hover{
+	transform: scale(1.1);
+}
