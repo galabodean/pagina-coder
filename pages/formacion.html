@@ -41,24 +41,23 @@
 </header>
 <!--HEADER END-->
 
+
 <div class="Formacion__Titulo__Caja">
-  <div class="cajaTitulo">
-    <h1 class="tituloseccion">FORMACIÓN</h1>
+  <div class="Formacion__Titulo">
+    <h1 class="tituloseccion__Formacion">FORMACIÓN</h1>
   </div>
-  <div class="Subtitulo_Seccion">
-  <h2>Cursos virtuales</h2>
-  </div>
+  <h2 class="Subtitulo_Seccion">Cursos virtuales</h2>
 </div>
-
-
-
 <!--ENTRADAS-->
 <div class="caja_Formacion">
-
     <!--ENTRADA 1-->
     <div class="formacion1">
       <div class="imagenFormacion">
-        <img  class="foto_formacion1" src="../mediacoder/formacion1.jpg" alt="Formación lo inclusivo es la sexualidad">
+        <picture>
+          <source media="(max-width:480px)" 
+          srcset="../mediacoder/formacion1_480.jpg">
+          <img  class="foto_formacion1" src="../mediacoder/formacion1.jpg" alt="Formación lo inclusivo es la sexualidad">
+        </picture>
       </div>
       <div class="caja_descripcionFormacion">
         <h2 class="tituloFormacion">Lo inclusivo es la sexualidad</h2>
@@ -72,7 +71,7 @@
           <div class="caja_subtitulo">
             <h3 class="subtitulo1">Horario</h3>
             <div class="hora">
-              <p class="textosubtitulo1">De 17.00 a 19:00 Hs. (Arg)</p>
+              <p class="textosubtitulo1">De 17 a 19 Hs. (Arg)</p>
             </div>
           </div>
           <div class="caja_subtitulo">
@@ -91,7 +90,7 @@
     <!--ENTRADA 2-->
     <div class="formacion1">
       <div class="imagenFormacion">
-        <img class="foto_formacion1" src="../mediacoder/formacion2.jpg" alt="">
+        <img class="foto_formacion1" src="../mediacoder/formacion2.jpg" alt="Flyer del curso encuentros de formacion para instituciones y equipos">
       </div>
 
       <div class="caja_descripcionFormacion">
@@ -105,7 +104,7 @@
           <div class="caja_subtitulo">
             <h3 class="subtitulo1">Horario</h3>
             <div class="hora">
-              <p class="textosubtitulo1">De 17.00 a 19:00 Hs. (Arg)</p>
+              <p class="textosubtitulo1">De 17a 19 Hs. (Arg)</p>
             </div>
           </div>
           <div class="caja_subtitulo">
@@ -119,18 +118,17 @@
             <a href="#" class="Boton_comprar">Comprar</a>
           </div>
         </div>
-
       </div>
-    </div>
+</div>
 
 <!--ENTRADA 2-->
     <div class="formacion1">
       <div class="imagenFormacion">
-        <img class="foto_formacion1" src="../mediacoder/formacion3.jpg" alt="">
+        <img class="foto_formacion1" src="../mediacoder/formacion3.jpg" alt="Flyer del curso ninguna sexualidad sin nosotres">
       </div>
 
       <div class="caja_descripcionFormacion">
-        <h2 class="tituloFormacion">Encuentros de formación para instituciones y equipos</h2>
+        <h2 class="tituloFormacion">Ninguna sexualidad sin nosotres</h2>
         <p class="descripcionFormacion">Educación sexual integral con perspectiva en diversidad funcional/discapacidad</p>
         <div class="caja_DetallesFormacion">
           <div class="caja_subtitulo">
@@ -140,7 +138,7 @@
           <div class="caja_subtitulo">
             <h3 class="subtitulo1">Horario</h3>
             <div class="hora">
-              <p class="textosubtitulo1">De 17.00 a 19:00 Hs. (Arg)</p>
+              <p class="textosubtitulo1">De 17 a 19 Hs. (Arg)</p>
             </div>
           </div>
           <div class="caja_subtitulo">
@@ -160,8 +158,9 @@
 </div>
 
 <section class="caja_PreguntasFrecuentes">
-  <div class="preguntas-frecuentes-imagen">  
-    <img src="../mediacoder/basefondoformacion.png">
+  <div class="preguntas-frecuentes-imagen">
+      <img class="separador-formacion" 
+      src="../mediacoder/basefondoformacion.png"> 
   </div>
 
   <div class="caja_PreguntasFrecuentes2">
@@ -221,6 +220,6 @@
     </div>
   </div>
 </footer>
-
+<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 </body>
 </html>

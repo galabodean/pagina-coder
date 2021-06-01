@@ -1,3 +1,5 @@
+
+
 .Boton:hover {
 	background-color:#B2B2B2 ;
 }
@@ -8,11 +10,11 @@
 .Boton__caja{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
+	align-items:center;
 	font-family: $Tipografia-principal;
-	font-size: 15px;
-	width: 425px;
-	padding-top: 70px;
+	width: 100%;
+	padding: 10vw 0 0 0;
 }
 
 .Boton{
@@ -23,11 +25,11 @@
 	background-color: #47E2C4;
 
 	border-radius: 40px;
-	width: 140px;
-	height: 40px;
+	width: relative;
+	height: relative;
 }
 .Boton__Texto--modified{
- font-size: 12px;
+ font-size: 1vw;
  text-decoration: none;
  color: white;
 }
@@ -41,8 +43,8 @@
 	border-style: solid;
 
 	border-radius: 40px;
-	width: 140px;
-	height: 40px;	
+	width: relative;
+	height: relative;	
 }
 
 .Boton--modified-Blog{
@@ -53,15 +55,16 @@
 
 	font-family: $Tipografia-principal;
 
-	border-color: #d4ba4e;
+	border-color: #e8cb58;
 	border-width: 2px;
 	border-style: solid;
 	border-radius: 40px;
 
 	margin-top: 15px;
+	padding: 5px 5px 5px 5px;
 
-	width: 105px;
-	height: 30px;
+	width: relative;
+	height: relative;
 }
 .Caja_MasEntradas{
 	display: flex;
@@ -69,8 +72,8 @@
 	justify-content: space-around;
 	align-items: center;
 
-	width: auto;
-	height: 120px;
+	width: 100%;
+	height: 10vw;
 }
 .Boton--modified--Blog-2{
 	display: flex;
@@ -83,13 +86,14 @@
 
 	border-radius: 40px;
 	width: relative;
-	height: 40px;	
+	height: relative;	
 }
 .Boton__Texto{
 	text-decoration: none;
 	color: white;
-	width: 170px;
+	font-size: 1.2vw;
 	text-align: center;
+	padding: 5px 10px 5px 10px;
 }
 
 //FORMACION
@@ -101,22 +105,21 @@
 	border-radius: 30px 30px 30px 30px;
 
 	margin-top: 40px;
-
-	width: 100px;
-	height: 40px;
+	padding: 5px 5px 5px 5px;
+	width: relative;
+	height: relative;
 	background-color: #E04CAB;
 }
 .Boton_caja--modified_Formacion{
 	display: flex;
-	align-items: center;
 	justify-content: space-around;
 
-	width: 320px;
+	width: relative;
 }
 .Boton_comprar{
 	text-decoration: none;
 	font-family: $Tipografia-principal;
-	font-size: 20px;
+	font-size: 1vw;
 	color:white;
 }
 
@@ -129,11 +132,10 @@
 	border-radius: 30px 30px 30px 30px;
 
 	font-family: $Tipografia-principal;
-	font-size: $boton-chico-tamanio;
+	font-size: 1vw;
 	text-decoration: none;
 	color: white;
 
-	margin-top: 10px;
 	padding:2px 5px 2px 5px;
 
 	width: relative;
@@ -148,11 +150,10 @@
 	border-radius: 30px 30px 30px 30px;
 
 	font-family: $Tipografia-principal;
-	font-size: $boton-chico-tamanio;
+	font-size: 1vw;
 	text-decoration: none;
 	color: white;
 
-	margin-top: 10px;
 	padding:2px 5px 2px 5px;
 
 	width: relative;

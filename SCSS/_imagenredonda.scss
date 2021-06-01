@@ -1,19 +1,17 @@
-//CELULAR GRANDE
-@media only screen and (max-width: 480px){
-	.imagenEntrada{
-		width: 200px;
-		height: 200px;
-	}
+
+
+.imagenEntrada_Caja{
+	width: 100%;
 }
-
-
 .imagenEntrada{
-	width: 280px;
-	height: 280px;
-	border-radius: 150px;
+	width: 100%;
+	border-radius: 150px 150px 150px 150px;
 }
 .imagenRedonda--modified{
-	width: 260px;
-	height: 260px;
-	border-radius: 150px;
+	border-radius: 100% 100% 100% 100%;
+	width: 100%;
+}
+.imagenRedonda--modified__Caja{
+	width: 20vw;
+
 }

@@ -2,24 +2,21 @@
 $Tipografia-principal: 'Patua One', cursive;
 $Tipografia-secundaria:'Montserrat', sans-serif ;
 
-$titulo-principal-tamanio: 38px;
+$titulo-principal-tamanio: 2vw;
 
-$Titulo-Principal-seccion-tamanio:45px;
+$Titulo-Principal-seccion-tamanio:3vw;
+$Titulo-Principal-seccion-tamanio-chico: 1.8em;
 $Titulo-Principal-seccion-fuente:'Patua One', cursive;
 
-
-
-$titulo-h2-tamanio: 17px;
-
-$subtitulo-tamanio: 24px;
-
-$descripcion-tamanio:15px;
+$titulo-h2-tamanio:1.6vw;
+$descripcion-tamanio:1.2vw;
 
 $boton-chico-tamanio:15px;
 
-$titulo-principal-celular: 28px;
-$titulo-h1-celular:15px;
-$texto-celular:11px;
+$titulo-principal-celular: 1.2em;
+$titulo-h1-celular:1.2vw;
+$titulo-h2-celular: 0.5em;
+$texto-celular:0.3em;
 
 //ESTILOS APLICADOS
 .Titulo-Principal{
@@ -36,21 +33,22 @@ $texto-celular:11px;
 	justify-content: space-around;
 
 	font-family: $Tipografia-principal;
-	font-size: 20px;
-
-	height: 160px;
+	font-size: $titulo-h2-tamanio;
 }
+.Subtitulo_Seccion--formacion{
+		font-family: $Tipografia-principal;
+	font-size: $titulo-h2-tamanio;
 
-.Descripcion--modified{
-	position: absolute;
-	text-align: center;
-	top: 1700px;
-	margin-left: 300px;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 20px;
-	width: 740px;
 }
 .tituloFormacion{
 	font-family: $Tipografia-principal;
-	font-size: $subtitulo-tamanio;	
+	font-size: $titulo-h2-tamanio;	
+}
+.Titulo-SobreMi{
+	font-size: 3vw;
+	font-family: $Tipografia-principal;
+}
+.tituloseccion__Formacion{
+	font-size: 3vw;
+	font-family: $Tipografia-principal;
 }

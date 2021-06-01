@@ -9,7 +9,6 @@
 	<link rel="stylesheet" href="./css/main.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Patua+One&display=swap" rel="stylesheet">
-	<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 </head>
 
 <body>
@@ -60,7 +59,7 @@
 			</div>
 		</div>
 		<div id="cajalogo">
-			<img src="mediacoder/venus.png" class="logo">
+			<img src="mediacoder/venus.png" class="logo" alt="logo del blog, 3 venus de milo, una está más adelante que las otras dos">
 		</div>
 	</div>
 <!--INDEX END-->
@@ -71,19 +70,20 @@
 </div>
 <!--FRASE END-->
 
-<!--BIBLIOGRAFIA START-->
-<div class="Bibliografia-Index">
-	<div>
-		<img class="Bibliografia-Index__Imagen" alt="Imagen de uno de los contenidos dentro de la bibliografia" src="mediacoder/portadabiblio2.jpg">
-	</div>
-	<div class="Bibliografia-Index__Descripcion">
-		<div class="Bibliografia-Index__Titulo-Principal-Caja">
-			<h2 class="Titulo-Principal">FORMACIÓN</h2>
+<!--FORMACION START-->
+<div class="Formacion-Index">
+		<img class="Formacion-Index__Imagen" 
+		src="mediacoder/portadabiblio2.jpg"
+		alt="Ilustración de una pareja de dos mujeres a punto de darse un beso">
+	</picture>
+	<div class="Formacion-Index__Descripcion">
+		<div class="Formacion-Index__Titulo-Principal-Caja">
+			<h2 class="Titulo-Principal-seccion__formacion">FORMACIÓN</h2>
 		</div>
 		<div class="Subtitulo--modified">
 			<h3>Ninguna sexualidad sin nosotres</h3>
 		</div>
-		<div class="Bibliografia-Index__Texto-Descripcion">
+		<div class="Formacion-Index__Texto-Descripcion">
 			<p>. 4 Módulo de lectura (PDF)<br>
 			.Videos propios del curso <br>
 			.Diapositivas de síntesis <br>
@@ -106,11 +106,17 @@
 <!--BLOG START-->
 <div class="Blog-Index">
 	<div class="Blog__Titulo-Principal-Caja">
-		<h2 class="Titulo-Principal">BLOG</h2>
+		<h2 class="Titulo-Principal-seccion">BLOG</h2>
 	</div>
 	<div class="Blog__Entradas">
 			<div class="Blog__Entrada">
-				<img class="imagenEntrada" src="mediacoder/portadablog1.jpg" alt="">
+				<picture>
+					<source media="(max-width:320px)" srcset="mediacoder/portadablog1_320.jpg">
+					<img 
+					class="imagenEntrada" 
+					src="mediacoder/portadablog1.jpg" 
+					alt="Mujer con sindrome de down maquillada y vestida de dorado">
+				</picture>
 				<div class="Blog__Entrada-Titulo">
 					<h2>Autoestima rehabilitadora</h2>
 				</div>
@@ -126,7 +132,10 @@
 			</div>
 
 			<div class="Blog__Entrada">
-				<img class="imagenEntrada" src="mediacoder/portadablog2.jpg">
+				<picture>
+					<source media="(max-width:320px)" srcset="mediacoder/portadablog2_320.jpg" >
+					<img class="imagenEntrada" src="mediacoder/portadablog2.jpg" alt="marcha de mujeres, en la primera fila hay mucjeres con diversidad funcional en silla de ruedas.">
+				</picture>
 				<div class="Blog__Entrada-Titulo">
 					<h2>¡Que sepamos replicarlo en las marchas y en las vidas!</h2>
 				</div>
@@ -143,7 +152,10 @@
 			</div>
 
 			<div class="Blog__Entrada">
-				<img class="imagenEntrada" src="mediacoder/portadablog3.jpg">
+				<picture>
+					<source media="(max-width:320px)" srcset="mediacoder/portadablog3_320.jpg" >
+					<img class="imagenEntrada" src="mediacoder/portadablog3.jpg" alt="Ilustracion de dos mujeres con sindrome de down miránsode">
+				</picture>
 				<div class="Blog__Entrada-Titulo">
 					<h2>Ahora que si nos ven, que nos vean diversas funcionales. 8M</h2>
 				</div>
@@ -162,14 +174,21 @@
 			</div>
 
 			<div class="Blog__Entrada">
-				<img class="imagenEntrada" src="mediacoder/portadablog1.jpg" alt="">
+				<picture>
+					<source media="(max-width:320px)" srcset="mediacoder/blog_4_320.jpg">
+					<img class="imagenEntrada" src="./mediacoder/blog_4.jpg" alt="ilustracion de una mujer en silla de ruedas, de un costado aparecen varias manos queriendo alimentarla">
+				</picture>
 				<div class="Blog__Entrada-Titulo">
-					<h2>Autoestima rehabilitadora</h2>
+					<h2>EL SEXO NO ES UNA NECESIDAD</h2>
 				</div>
 				<div class="Blog__Entrada-Texto-Caja">
 					<p>
-					Cuando desde la ESI, construimos el Eje conceptual del "Cuidado del cuerpo y la salud", tenemos una maravillosa oportunidad de aplicarle Perspectiva en Diversidad Funcional.
-					Al pensar en EL cuerpo: ¿qué cuerpo imaginamos?. ¿Pensamos en cuerpos diversos funcionales, y a estos como parte de la Diversidad humana, o sólo como la cuota de discapacidad que estamos dispuestes a sumar a nuestros contenidos?.
+					Pregunto a la clase:
+		            -¿Saben qué necesitan las personas con discapacidad?.
+		            Lo mismo que todos nosotros. Que nos quieran, ser felices. Estar cuidadas, atendidas. No estar solas; suelen ser las respuestas mayoritariamente obtenidas.
+
+		            - Y si les preguntara: ¿Qué desean?.
+		            Es la misma pregunta que la anterior.
 					</p>
 				</div>
 				<div class="Boton--modified-Blog">
@@ -178,15 +197,18 @@
 			</div>
 
 			<div class="Blog__Entrada">
-				<img class="imagenEntrada" src="mediacoder/portadablog2.jpg">
+				<picture>
+					<source media="(max-width:320px)" srcset="mediacoder/blog5_320.jpg">
+					<img class="imagenEntrada" src="./mediacoder/blog5.jpg" alt="ilustracion de una mujer sentada sobre un hombre en silla de ruedas, dándose un beso y sacándose una foto en el espejo">
+				</picture>
 				<div class="Blog__Entrada-Titulo">
-					<h2>¡Que sepamos replicarlo en las marchas y en las vidas!</h2>
+					<h2>'¿Por qué la gente piensa que soy el cuidador de mi novio?'</h2>
 				</div>
 				<div class="Blog__Entrada-Texto-Caja">
 					<p>
-					Colectiva Polimorfas:
-					"Este año, Las mujeres con discapacidad encabezamos la marcha #8M 
-					Agradecemos desde la Colectiva Polimorfas con todo el corazón a nuestra hermosa red de voluntarixs y aliades que nos acompañaron en cada etapa de logística de la marcha, también garantizaron nuestra movilidad y seguridad durante todo el recorrido."
+					Un tema que hemos tratado en muchas ocasiones.
+
+          			Rescato de esta nota, un aspecto específico: ¿Cómo mencionar a aquellas parejas conformadas por personas con y sin discapacidad ("Mixtas"), no haciendo eje en las capacidades físicas y/o intelectuales?.
 					</p>
 				</div>
 				<div class="Boton--modified-Blog">
@@ -195,17 +217,18 @@
 			</div>
 
 			<div class="Blog__Entrada">
-				<img class="imagenEntrada" src="mediacoder/portadablog3.jpg">
+				<picture>
+					<source media="(max-width:320px)" srcset="mediacoder/blog6_320.jpg">
+					<img class="imagenEntrada" src="./mediacoder/blog6.jpg" alt="Foto en blanco y negro de una persona mostrandole dos jueguetes, un bebe negro y un bebé blanco, a u niño negro sentado en un pupitre. el niño señala al bebé blanco.">
+				</picture>
 				<div class="Blog__Entrada-Titulo">
-					<h2>Ahora que si nos ven, que nos vean diversas funcionales. 8M</h2>
+					<h2>SOMOS LOS JUGUETES QUE REGALAMOS.</h2>
 				</div>
 				<div class="Blog__Entrada-Texto-Caja">
 					<p>
-					Hermana,
-					Que no tengas que rehabilitarte para ser visible
-					Que no tengas que dar cuenta de "también" ser mujer
-					Que no tengas que pedir permiso para que tus aportes, como activista y militante de tus derechos, sean considerados valiosos
-					Que no te misnusvalicen los deseos, ni incapaciten tus decisiones
+					Un 6 de enero llego a mí, "Posolino". Un muñeco que solía mirar embelesada, con "la ñata contra el vidrio" de la juguetería de mi barrio.
+
+          			Estaba feliz. Los reyes magos habían leído mi carta y me habían traído al muñeco "más feo de todos", según mi mamá. Recuerdo que no podía dejar de mirarlo.
 					</p>
 				</div>
 				<div class="Boton--modified-Blog">
@@ -244,5 +267,6 @@
     </div>
   </div>
 </footer>
+<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 </body>
 </html>

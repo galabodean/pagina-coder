@@ -91,32 +91,34 @@ nav ul{
 
 .Titulo-Principal {
   font-family: "Patua One", cursive;
-  font-size: 38px; }
+  font-size: 2vw; }
 
 .Titulo-Principal-seccion {
   font-family: "Patua One", cursive;
-  font-size: 45px; }
+  font-size: 3vw; }
 
 .Subtitulo_Seccion {
   display: flex;
   align-items: center;
   justify-content: space-around;
   font-family: "Patua One", cursive;
-  font-size: 20px;
-  height: 160px; }
+  font-size: 1.6vw; }
 
-.Descripcion--modified {
-  position: absolute;
-  text-align: center;
-  top: 1700px;
-  margin-left: 300px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-  width: 740px; }
+.Subtitulo_Seccion--formacion {
+  font-family: "Patua One", cursive;
+  font-size: 1.6vw; }
 
 .tituloFormacion {
   font-family: "Patua One", cursive;
-  font-size: 24px; }
+  font-size: 1.6vw; }
+
+.Titulo-SobreMi {
+  font-size: 3vw;
+  font-family: "Patua One", cursive; }
+
+.tituloseccion__Formacion {
+  font-size: 3vw;
+  font-family: "Patua One", cursive; }
 
 .Boton:hover {
   background-color: #B2B2B2; }
@@ -127,11 +129,11 @@ nav ul{
 .Boton__caja {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
   font-family: "Patua One", cursive;
-  font-size: 15px;
-  width: 425px;
-  padding-top: 70px; }
+  width: 100%;
+  padding: 10vw 0 0 0; }
 
 .Boton {
   display: flex;
@@ -139,11 +141,11 @@ nav ul{
   align-items: center;
   background-color: #47E2C4;
   border-radius: 40px;
-  width: 140px;
-  height: 40px; }
+  width: relative;
+  height: relative; }
 
 .Boton__Texto--modified {
-  font-size: 12px;
+  font-size: 1vw;
   text-decoration: none;
   color: white; }
 
@@ -155,8 +157,8 @@ nav ul{
   border-width: 2px;
   border-style: solid;
   border-radius: 40px;
-  width: 140px;
-  height: 40px; }
+  width: relative;
+  height: relative; }
 
 .Boton--modified-Blog {
   display: flex;
@@ -164,21 +166,22 @@ nav ul{
   justify-content: space-around;
   align-items: center;
   font-family: "Patua One", cursive;
-  border-color: #d4ba4e;
+  border-color: #e8cb58;
   border-width: 2px;
   border-style: solid;
   border-radius: 40px;
   margin-top: 15px;
-  width: 105px;
-  height: 30px; }
+  padding: 5px 5px 5px 5px;
+  width: relative;
+  height: relative; }
 
 .Caja_MasEntradas {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  width: auto;
-  height: 120px; }
+  width: 100%;
+  height: 10vw; }
 
 .Boton--modified--Blog-2 {
   display: flex;
@@ -189,13 +192,14 @@ nav ul{
   background-color: #d4ba4e;
   border-radius: 40px;
   width: relative;
-  height: 40px; }
+  height: relative; }
 
 .Boton__Texto {
   text-decoration: none;
   color: white;
-  width: 170px;
-  text-align: center; }
+  font-size: 1.2vw;
+  text-align: center;
+  padding: 5px 10px 5px 10px; }
 
 .Boton--modified_Formacion {
   display: flex;
@@ -203,20 +207,20 @@ nav ul{
   justify-content: space-around;
   border-radius: 30px 30px 30px 30px;
   margin-top: 40px;
-  width: 100px;
-  height: 40px;
+  padding: 5px 5px 5px 5px;
+  width: relative;
+  height: relative;
   background-color: #E04CAB; }
 
 .Boton_caja--modified_Formacion {
   display: flex;
-  align-items: center;
   justify-content: space-around;
-  width: 320px; }
+  width: relative; }
 
 .Boton_comprar {
   text-decoration: none;
   font-family: "Patua One", cursive;
-  font-size: 20px;
+  font-size: 1vw;
   color: white; }
 
 .Boton__SobreMi {
@@ -225,10 +229,9 @@ nav ul{
   justify-content: space-around;
   border-radius: 30px 30px 30px 30px;
   font-family: "Patua One", cursive;
-  font-size: 15px;
+  font-size: 1vw;
   text-decoration: none;
   color: white;
-  margin-top: 10px;
   padding: 2px 5px 2px 5px;
   width: relative;
   height: relative;
@@ -240,10 +243,9 @@ nav ul{
   justify-content: space-around;
   border-radius: 30px 30px 30px 30px;
   font-family: "Patua One", cursive;
-  font-size: 15px;
+  font-size: 1vw;
   text-decoration: none;
   color: white;
-  margin-top: 10px;
   padding: 2px 5px 2px 5px;
   width: relative;
   height: relative;
@@ -264,57 +266,18 @@ nav ul{
 .imagenRedonda--modified:hover {
   transform: scale(1.1); }
 
-@media (max-width: 320px) {
-  .caja_Contacto {
-    height: 690px;
-    width: 100%;
-    background-image: none;
-    padding-bottom: 50px; }
-  .tituloseccion {
-    font-size: 30px; }
-  .cajaForm {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    width: 100%;
-    width: 140px;
-    height: 420px; }
-  .nombreYMail {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-content: space-around;
-    flex-wrap: wrap;
-    width: 140px;
-    height: 140px; }
-  .cajaseccion1 {
-    width: 140px; }
-  .cajaseccion2 {
-    width: 140px; }
-  .cajaAyuda {
-    margin-left: 25px; }
-  textarea {
-    width: 200px; }
-  input[type="text"] {
-    width: 140px; }
-  .cajaAyuda {
-    margin-bottom: 20px; } }
-
 @media only screen and (max-width: 320px) {
   footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 320px; }
+    width: 320px;
+    height: relative; }
   .Suscribite {
     width: 140px; }
   .footer_caja {
     width: 320px;
     margin: 0 35px 0 55px; }
-  .parte1 {
-    font-size: 8px; }
-  .parte2 {
-    font-size: 8px; }
   .cajaSuscribite {
     height: 10px;
     width: 150px;
@@ -326,34 +289,34 @@ nav ul{
     align-items: center; } }
 
 footer {
-  width: 100%;
-  height: 250px;
+  height: relative;
   background-color: #b2b2b2; }
 
 .footer_caja {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   width: 100%;
-  height: 250px; }
+  height: 20vw; }
 
 footer > div {
   font-family: 'Montserrat', sans-serif;
-  font-size: 13px; }
+  font-size: 1vw; }
 
 .parte1 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 110px; }
+  height: 12vw;
+  width: 20vw; }
 
 .parte2 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-content: space-around;
-  height: 110px; }
+  height: 12vw; }
 
 .cajaIconos {
   display: flex;
@@ -365,7 +328,7 @@ footer > div {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 30px;
+  height: relative;
   width: relative;
   background-color: #4F4F4F;
   border-radius: 20px; }
@@ -374,45 +337,103 @@ footer > div {
   color: white;
   text-decoration: none; }
 
-@media only screen and (max-width: 480px) {
-  .imagenEntrada {
-    width: 200px;
-    height: 200px; } }
+.imagenEntrada_Caja {
+  width: 100%; }
 
 .imagenEntrada {
-  width: 280px;
-  height: 280px;
-  border-radius: 150px; }
+  width: 100%;
+  border-radius: 150px 150px 150px 150px; }
 
 .imagenRedonda--modified {
-  width: 260px;
-  height: 260px;
-  border-radius: 150px; }
+  border-radius: 100% 100% 100% 100%;
+  width: 100%; }
 
-/***MEDIA***/
+.imagenRedonda--modified__Caja {
+  width: 20vw; }
+
 @media only screen and (max-width: 320px) {
   body {
-    width: relative; } }
+    width: relative;
+    height: relative; }
+  #cajatitulo {
+    height: 11%; }
+  .Titulo-Principal {
+    font-size: 1.2em; }
+  .descripcion {
+    font-size: 0.9em; }
+  .Frase__texto {
+    line-height: 0.3em;
+    font-size: 8px; }
+  .Frase {
+    background-image: url(../mediacoder/fondofrase_320.png);
+    background-position: inherit; }
+  .cajaTitulo {
+    padding-top: 20vw; }
+  .Titulo-Principal_Caja {
+    padding-top: 20vw; }
+  .Formacion-Index__Descripcion {
+    margin-right: 20px; }
+  .Blog__Entradas {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 170vw; }
+  .Blog__Entrada {
+    height: 20%; }
+  .Blog__Entrada-Titulo {
+    font-size: 0.5em; }
+  .Bibliografia-Index__Descripcion {
+    justify-content: space-around;
+    align-items: center;
+    background-color: yellow;
+    width: 100%; }
+  .Formacion__Titulo__Caja {
+    background-position: left 30%; }
+  .FAQ {
+    flex-direction: column;
+    flex-wrap: wrap; }
+  .caja_textoPreguntasFrecuentes {
+    text-align: center; }
+  .caja_DetallesFormacion {
+    flex-wrap: wrap;
+    flex-direction: column; }
+  .Blog__Titulo-Principal-Caja--modified {
+    padding-top: 10vw; }
+  .imagenRedonda--modified {
+    width: 20vw; }
+  .caja_Contacto {
+    padding-top: 10vw;
+    padding-bottom: 50vw; } }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 375px) {
+  .cajainicio {
+    flex-direction: row; }
+  .Formacion__Titulo__Caja {
+    flex-direction: row; }
+  .separador-formacion {
+    width: 100vw; }
+  .cursosYCharlas {
+    width: 100%; }
+  .caja_Cursos {
+    padding-right: 20vw; } }
+
+@media only screen and (max-width: 425px) {
   body {
     width: relative;
-    height: relative; } }
-
-/***INDEX***/
-@media only screen and (max-width: 480px) {
+    height: relative; }
   .Titulo-Principal {
-    font-size: 28px;
+    font-size: 1em;
     text-align: center; }
   .cajainicio {
-    padding-top: 10%;
+    padding-top: 15%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
     flex-wrap: wrap;
     background-size: cover; }
   .section-titulos {
-    width: 480vw; }
+    width: 480vw;
+    height: 60%; }
   #cajaSubtitulos {
     justify-content: space-around;
     width: 90%;
@@ -420,64 +441,154 @@ footer > div {
     font-size: 15px; }
   .cajadescripcion {
     margin-left: 20px;
-    width: 90%; }
-  .descripcion {
-    font-size: 8px; }
+    width: 90%;
+    font-size: 0.8em; }
   #cajalogo {
-    width: 40vw; }
+    width: 40vw;
+    margin-bottom: 10px; }
   .logo {
     width: 40vw;
-    height: 40vw; } }
+    height: 40vw; }
+  .Frase {
+    background-image: url(../mediacoder/fondofrase_480.png);
+    background-position: inherit; }
+  .imagenentrada {
+    width: 100%; }
+  .Blog__Entrada {
+    height: 500px; }
+  .Blog {
+    height: relative; }
+  .Blog__Entrada-Titulo {
+    font-size: 1.2vw; }
+  .Blog__Entrada-Texto-Caja {
+    font-size: 0.5em; }
+  .Blog__Entrada {
+    height: relative; }
+  .Blog__Titulo-Principal-Caja--modified {
+    height: 160px; }
+  .Blog__Entradas {
+    height: relative; }
+  .Formacion__Titulo__Caja {
+    width: 100%;
+    background-position: left 30%; }
+  .foto_formacion1 {
+    width: 100%; }
+  .tituloFormacion {
+    font-size: 1.2vw; }
+  .descripcionFormacion {
+    width: 80%;
+    font-size: 0.3em; }
+  .caja_DetallesFormacion {
+    width: 180px;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap; }
+  .subtitulo1 {
+    font-size: 10; }
+  .Boton_caja--modified_Formacion {
+    width: 100%; }
+  .preguntas-frecuentes-imagen {
+    width: 40%; }
+  .separador-formacion {
+    width: 100vw; }
+  .FAQ {
+    flex-direction: column;
+    flex-wrap: wrap; }
+  .preguntasFrecuentes {
+    font-size: 1em; }
+  details {
+    margin-top: 30px; }
+  summary {
+    font-size: 0.6em; }
+  .SobreMi__Decripcion-Caja {
+    background-position: center; }
+  .cursosYCharlas {
+    flex-direction: column;
+    flex-wrap: wrap; }
+  .cajaTitulo__Biblio {
+    padding-top: 15vw; }
+  .Contacto__Titulo__Caja {
+    flex-direction: flex-end; } }
+
+@media only screen and (max-width: 768px) {
+  body {
+    width: relative;
+    height: relative; }
+  .imagenRedonda--modified {
+    width: 20vw; }
+  .fondobiblio_768 {
+    max-width: 768px; }
+  .imagen_entrada {
+    max-width: 150px;
+    border-radius: 30px 30px 30px 30px; }
+  .caja_Cursos {
+    padding: 0 70px 0 70px; }
+  .entrevistas {
+    padding: 0 70px 0 70px; } }
+
+#cajaTitulo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; }
 
 .cajainicio {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding-top: 10%;
-  height: 540px;
+  padding-top: 10vw;
+  height: relative;
   width: 100%;
   background-color: #47E2C4;
   background-image: url(../mediacoder/fondo1.png);
   background-size: cover; }
 
 .section-titulos {
-  width: 500px;
-  height: 80%; }
+  width: 800vw;
+  height: 70%;
+  padding: 5vw 0 0 4vw; }
 
 #cajaSubtitulos {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 30px; }
+  margin-top: 15px; }
 
 #cajatitulo {
+  margin-top: 12px;
   font-family: "Patua One", cursive;
-  font-size: 38px; }
+  font-size: 2vw; }
 
 .titulo {
   text-align: left;
   letter-spacing: 1px; }
 
 .SubtituloIndex {
-  font-size: 17px;
+  font-size: 1.6vw;
   font-family: "Patua One", cursive; }
 
 .descripcion {
   font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
+  font-size: 1vw;
   text-align: left;
-  line-height: 1.5; }
+  line-height: 1.5;
+  height: 25vw; }
+
+#cajalogo {
+  width: relative;
+  height: relative;
+  padding: 5px 5px 5px 5px;
+  display: flex;
+  align-content: center;
+  align-items: center; }
 
 .logo {
   filter: drop-shadow(4px 3px 6px #5B5B5B);
-  height: 80%; }
+  height: 35vw; }
 
 .Subtitulo--modified {
   font-family: "Patua One", cursive;
-  font-size: 17px;
-  width: 430px;
-  text-align: left;
-  padding-bottom: 30px; }
+  font-size: 1.6vw;
+  text-align: center; }
 
 /*FRASE*/
 .Frase {
@@ -491,15 +602,50 @@ footer > div {
 
 .Frase__texto {
   font-family: 'Montserrat', sans-serif;
-  font-size: 45px;
+  font-size: 3em;
   line-height: 1.6;
   letter-spacing: 0.6px;
   text-align: center;
   color: #b5188c; }
 
+/*BIBLIO INDEX*/
+.Formacion-Index {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: relative;
+  height: 50vw;
+  background-color: #3ECEB3; }
+
+.Formacion-Index__Imagen {
+  width: relative;
+  height: 50vw; }
+
+.Formacion-Index__Descripcion {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  width: relative;
+  height: 50vw;
+  padding-top: 15vw;
+  padding-left: 15vw; }
+
+.Formacion-Index__Titulo-Principal-Caja {
+  text-align: left; }
+
+.Titulo-Principal-seccion__formacion {
+  font-family: "Patua One", cursive;
+  font-size: 3vw; }
+
+.Formacion-Index__Texto-Descripcion {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2vw;
+  line-height: 1.5; }
+
 /*BLOG INDEX*/
 .Blog-Index {
-  height: 1560px;
+  height: relative;
   background-color: #d3b94f;
   background-image: url(../mediacoder/fondoblog.svg);
   background-repeat: no-repeat;
@@ -508,8 +654,7 @@ footer > div {
 .Blog__Titulo-Principal-Caja {
   display: flex;
   justify-content: center;
-  font-family: 17px;
-  font-size: 25px; }
+  padding-bottom: 40px; }
 
 .Blog__Entradas {
   display: flex;
@@ -517,29 +662,25 @@ footer > div {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  align-content: space-between;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
   width: 100%;
-  height: 1320px; }
+  height: relative; }
 
 .Blog__Entrada-Titulo {
   font-family: "Patua One", cursive;
-  font-size: 17px;
+  font-size: 1.2vw;
   text-align: center; }
 
 .Blog__Entrada-Texto-Caja {
   font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
+  font-size: 1.4vw;
   text-align: center; }
 
 .Blog__Entrada {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
-  height: 635px;
-  width: 320px; }
+  height: 60vw;
+  width: 30%; }
 
 .cajaSeguirLeyendo {
   margin-top: 10px; }
@@ -547,7 +688,7 @@ footer > div {
 .seguirLeyendo {
   text-decoration: none;
   color: white;
-  font-size: 12px; }
+  font-size: 1vw; }
 
 .cajaMasEntradas {
   display: flex;
@@ -562,78 +703,10 @@ footer > div {
   font-size: 15px;
   color: white; }
 
-/*BIBLIO INDEX*/
-.Bibliografia-Index {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  width: 100%;
-  height: 620px;
-  background-color: #3ECEB3; }
-
-.Bibliografia-Index__Imagen {
-  height: 620px; }
-
-.Bibliografia-Index__Descripcion {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  align-content: space-around;
-  width: 612px;
-  padding-bottom: 40px; }
-
-.Bibliografia-Index__Titulo-Principal-Caja {
-  font-family: "Patua One", cursive;
-  font-size: 25px;
-  width: 430px;
-  text-align: left;
-  padding-bottom: 30px; }
-
-.Bibliografia-Index__Titulo-Caja {
-  font-family: "Patua One", cursive;
-  font-size: 17px;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  width: 430px; }
-
-.Bibliografia-Index__Texto-Descripcion {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
-  line-height: 1.5;
-  width: 430px; }
-
-/****BIBLIO INDEX END***/
 /******************* CAJA TITULOS *******************/
-.cajaTitulo {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  height: 150px;
-  font-family: "Patua One", cursive;
-  font-size: 23px; }
-
 /****BLOG START***/
-@media only screen and (max-width: 320px) {
-  .Blog__Entrada {
-    width: 290px; } }
-
-@media only screen and (max-width: 480px) {
-  .Blog {
-    height: relative; }
-  .Blog__Entrada-Titulo {
-    font-size: 15px; }
-  .Blog__Entrada-Texto-Caja {
-    font-size: 11px; }
-  .Blog__Entrada {
-    height: 550px; }
-  .Blog__Titulo-Principal-Caja--modified {
-    height: 160px; }
-  .Blog__Entradas {
-    height: relative; } }
-
 .Blog {
-  height: 1640px;
+  height: relative;
   background-color: #e2c960;
   background-image: url(../mediacoder/burbujasblog.svg);
   background-repeat: no-repeat; }
@@ -642,8 +715,8 @@ footer > div {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 200px;
-  width: relative; }
+  width: 100%;
+  height: 20vw; }
 
 /****BLOG END***/
 /****CONTACTO START***/
@@ -651,98 +724,143 @@ footer > div {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
+  align-items: center;
   background-image: url(../mediacoder/fondo3.png);
   background-size: cover;
   width: 100%;
-  height: 630px;
+  height: 435w;
   background-color: #E8E8E8; }
+
+.Titulo-Principal-Contacto {
+  width: 100%;
+  text-align: center;
+  font-family: "Patua One", cursive;
+  font-size: 3vw; }
+
+.Titulo-Principal_Caja {
+  width: 100%; }
+
+textarea {
+  width: 40vw;
+  height: 20vw;
+  resize: none; }
+
+.Contacto__Titulo__Caja {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #E8E8E8;
+  height: 20vw;
+  width: 100%; }
 
 .cajaForm {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
-  height: 400px;
-  width: 100%; }
+  align-content: center;
+  height: 40vw;
+  width: 40vw;
+  margin-bottom: 5vw; }
 
 .nombreYMail {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 15px; }
-
-.cajaseccion1 {
-  width: 170px;
-  margin-right: 20px; }
-
-.cajaseccion2 {
-  width: 170px;
-  margin-right: 140px; }
+  height: 5vw; }
 
 .cajaConsulta {
-  color: white;
-  margin-bottom: 15px;
-  height: 30px;
-  width: 250px;
-  background-color: #B2B2B2; }
+  display: flex;
+  flex-direction: row;
+  color: #B2B2B2e;
+  height: 10vw;
+  width: 30vw; }
+
+.consulta {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2vw; }
+
+.menu {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2vw; }
+
+select {
+  border-color: #B2B2B2;
+  background-color: #B2B2B2;
+  height: relative;
+  width: relative; }
 
 form input {
   border: none; }
 
 input[type="text"] {
   font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
-  border-bottom-size: 15px;
+  font-size: 1vw;
+  border-bottom-size: relative;
   border-bottom-width: medium;
   border-bottom-style: solid;
   border-bottom-color: #B2B2B2;
   width: relative;
   background-color: #E8E8E8; }
 
+.cajaAyuda {
+  height: 25vw; }
+
 .cajaEnviar {
   font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
-  height: 30px;
-  width: 100px;
+  font-size: 1vw;
+  height: relative;
+  width: relative;
   background-color: #B2B2B2; }
 
 /****CONTACTO END***/
 /****BIBLIOGRAFÍA START***/
 .caja_Bibliografía {
-  height: 3140px;
-  background-color: #47E2C4; }
+  background-color: #5dedd1;
+  height: relative;
+  width: 100%; }
 
-.banner_Bibliografia {
-  box-shadow: 0px 0px 10px #5B5B5B; }
-
-.Bibliografia_Banner_Titulo {
-  position: absolute;
-  top: 180px;
-  margin-left: 420px;
-  text-shadow: -2px 0px 3px #B2B2B2;
+.Titulo-Biblio {
   font-family: "Patua One", cursive;
-  font-size: 38px; }
+  font-size: 3vw; }
 
-.Bibliografia_Banner_Titulo2 {
-  position: absolute;
-  top: 1600px;
-  margin-left: 350px;
-  text-shadow: -2px 0px 3px #B2B2B2;
-  font-family: "Patua One", cursive;
-  font-size: 38px; }
+.Bibliografia__Decripcion-Caja {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(../mediacoder/bannerbiblio1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 40vw; }
+
+.Bibliografia__Decripcion-Caja2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-image: url(../mediacoder/bannerbiblio2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 40vw; }
+
+.Titulo-Biblio {
+  text-align: center; }
+
+.Titulo-descripcion-Biblio {
+  width: 100%; }
 
 .cajaEnlaces {
   display: flex;
   align-items: flex-end;
   justify-content: space-around;
   font-family: "Patua One", cursive;
-  font-size: 20px;
+  font-size: 1.6vw;
   letter-spacing: 2px;
   color: black;
   background-color: #3ECEB3;
-  height: 100px; }
+  padding: 5vw 0 0 0;
+  width: 100%; }
 
 .cajaEntradasBiblio {
   display: flex;
@@ -750,61 +868,42 @@ input[type="text"] {
   align-items: center;
   justify-content: space-around;
   align-items: center;
-  height: 460px;
+  padding-top: 10vw;
+  height: relative;
   background-color: #3ECEB3; }
 
 .entradaBiblio_1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 300px; }
+  height: relative; }
 
 .descripcionBiblio {
   margin-top: 15px;
   font-family: "Patua One", cursive;
-  font-size: 25px; }
+  font-size: 1.6vw; }
 
 .itemBiblio {
   margin-top: 5px;
   font-family: 'Montserrat', sans-serif;
-  font-size: 15px; }
+  font-size: 1.2vw; }
 
 .cajaVerMas {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-top: 30px;
+  padding: 3px 3px 3px 3px;
   border-radius: 50px;
-  height: 30px;
-  width: 70px;
+  height: relative;
+  width: relative;
   background-color: #47E2C4; }
 
 .vermas {
   text-decoration: none;
   font-family: "Patua One", cursive;
-  font-size: 15px;
+  font-size: 1vw;
   color: white; }
-
-.cajaBanner2 {
-  margin-top: 70px;
-  height: 382px; }
-
-.tituloBanner2 {
-  position: absolute;
-  top: 1760px;
-  left: 450px;
-  text-shadow: -2px 0px 3px #B2B2B2;
-  font-family: "Patua One", cursive;
-  font-size: 25px; }
-
-.descripcionBanner2 {
-  position: absolute;
-  top: 1820px;
-  left: 320px;
-  width: 622px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-  text-align: center; }
 
 .cajaBotonBibliografia {
   display: flex;
@@ -812,9 +911,8 @@ input[type="text"] {
   align-items: center;
   text-decoration: none;
   font-family: "Patua One", cursive;
-  font-size: 20px;
-  height: 250px;
-  width: 100%; }
+  font-size: 1.2vw;
+  height: 15vw; }
 
 .botonBibliografia {
   display: flex;
@@ -822,252 +920,298 @@ input[type="text"] {
   align-items: center;
   border-radius: 50px;
   box-shadow: 0px 0px 15px #3ECEB3;
-  height: 55px;
-  width: 280px;
+  padding: 5px 5px 5px 5px;
+  height: relative;
+  width: relative;
   background-color: #3ECEB3; }
 
 .boton {
   text-decoration: none;
   color: white; }
 
+.imagen_entrada_Caja {
+  width: 100%; }
+
+.imagen_entrada {
+  border-radius: 150px 150px 150px 150px;
+  width: 20vw; }
+
+.separador-Bibliografia_Caja {
+  width: 100%; }
+
+.separador-Bibliografia {
+  width: 100%; }
+
 /****BIBLIOGRAFÍA END***/
 /****FORMACIÓN START***/
-@media only screen and (max-width: 480px) {
-  .caja_Formacion {
-    flex-direction: row;
-    width: 80%;
-    flex-wrap: wrap; }
-    .caja_Formacion .formacion1 {
-      align-content: center;
-      width: 170px;
-      height: 440px; }
-    .caja_Formacion .foto_formacion1 {
-      width: 100%; }
-    .caja_Formacion .caja_descripcionFormacion {
-      width: 160px; }
-    .caja_Formacion .tituloFormacion {
-      font-size: 15px;
-      text-align: center; }
-    .caja_Formacion .descripcionFormacion {
-      font-size: 11px; }
-    .caja_Formacion .caja_DetallesFormacion {
-      flex-direction: column;
-      flex-wrap: wrap; }
-    .caja_Formacion .caja_subtitulo {
-      width: 80px; }
-    .caja_Formacion .subtitulo1 {
-      font-size: 15px;
-      text-align: center; }
-    .caja_Formacion .textosubtitulo1 {
-      font-size: 11px; }
-  .Formacion__Titulo__Caja {
-    background-image: url(../mediacoder/fondoformacion.png);
-    background-color: #E04CAB; }
-  .caja_CursosVirtuales {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    font-family: "Patua One", cursive;
-    font-size: 20px;
-    height: 160px; }
-  .caja_Formacion {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
-    height: 900px;
-    width: 100%;
-    background-color: #E04CAB; }
-  .formacion1 {
-    display: flex;
-    flex-direction: column;
-    border-radius: 50px 50px 50px 50px;
-    height: 650px;
-    width: 350px;
-    background-color: #C63CA2; }
-  .foto_formacion1 {
-    border-radius: 50px 50px 0 0; }
-  .TituloFormacion {
-    text-align: center;
-    font-family: "Patua One", cursive;
-    font-size: 25px;
-    background-image: url(mediacoder/fondoformacion.png); }
-  .caja_descripcionFormacion {
-    padding: 10px 15px 5px 15px; }
-  .descripcionFormacion {
-    text-align: justify;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-    margin-top: 5px; }
-  .caja_DetallesFormacion {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 10px; }
-  .subtitulo1 {
-    letter-spacing: 0.5px;
-    text-align: center;
-    font-family: "Patua One", cursive;
-    font-size: 17px;
-    font-weight: 100;
-    color: white; }
-  .hora {
-    width: 120px; }
-  .textosubtitulo1 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 15px; }
-  .caja_comprarformacion {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    border-radius: 30px 30px 30px 30px;
-    margin-top: 40px;
-    width: 100px;
-    height: 40px;
-    background-color: #E04CAB; }
-  .caja_PreguntasFrecuentes {
-    height: 800px;
-    background-color: #F4F4F4; }
-  .caja_PreguntasFrecuentes2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: space-around; }
-  .preguntasFrecuentes {
-    font-family: "Patua One", cursive;
-    font-size: 40px; }
-  .FAQ {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 30px;
-    width: 850px;
-    height: 270px; }
-  details {
-    width: 400px;
-    height: 40px;
-    background-color: #C63CA2; }
-  summary {
-    padding: 5px 0 0 7px;
-    font-family: "Patua One", cursive;
-    font-size: 20px;
-    color: white; }
-  .respuesta {
-    margin-top: 20px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px; }
-  /****FORMACIÓN END***/
-  /****SOBRE MI START***/
-  .SobreMi__Decripcion-Caja {
-    background-color: yellow;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    background-image: url(../mediacoder/bannersobremi.jpg);
-    background-size: cover;
-    height: 442px; }
-  .SobreMi-Titulo-Caja {
-    height: 80px; }
-  .SobreMi-Titulo {
-    align-content: center;
-    padding-top: 90px;
-    font-family: "Patua One", cursive;
-    font-size: 25px; }
-  .SobreMi-texto {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    text-align: center;
-    width: 622px; }
-  .SobreMi__Fotos_caja {
-    height: 720px;
-    background-color: #E8E8E8; }
-  .Descripcion {
-    position: absolute;
-    top: 240px;
-    left: 320px;
-    width: 622px;
-    font-family: "Patua One", cursive;
-    font-size: 20px;
-    line-height: 1.3;
-    text-align: center;
-    font-weight: bold; }
-  .SobreMi__Fotos_caja1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-content: center;
-    padding-top: 50px;
-    width: relative; }
-  .SobreMi__Fotos_caja2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-content: center;
-    margin-top: 30px;
-    width: relative; }
-  .SobreMi__Fotos__Texto {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    text-align: center;
-    font-weight: 400;
-    line-height: 1.3;
-    color: #C63CA2;
-    margin-top: 100px;
-    width: 190px; }
-  .SobreMi__Fotos__Texto--modified {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    text-align: center;
-    font-weight: 400;
-    line-height: 1.3;
-    color: #C63CA2;
-    margin-top: 100px;
-    margin-right: 15px;
-    margin-left: 15px; }
-  .cursosYCharlas {
-    display: flex;
-    flex-direction: row;
-    height: 510px; }
-  .caja_Cursos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: space-between;
-    height: 510px;
-    width: 632px;
-    background-color: #C63CA2; }
-  .entrevistas {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: space-between;
-    height: 510px;
-    width: 632px;
-    background-color: #E04CAB; }
-  .titulo_seccionCursos {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-family: "Patua One", cursive;
-    font-size: 45px;
-    height: 100px; }
-  .caja_CursoSobreMi {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 75px;
-    margin-bottom: 20px; }
-  .titulo_curso {
-    text-align: center;
-    font-family: "Patua One", cursive;
-    font-size: 20px;
-    letter-spacing: 0.6px;
-    color: #E8E8E8; }
-  .descripcion_curso {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    text-align: center;
-    width: 580px; } }
+.Formacion__Titulo__Caja {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-image: url(../mediacoder/fondoformacion.png);
+  background-color: #E04CAB;
+  padding-top: 5vw;
+  width: 100%;
+  height: 15vw; }
+
+.caja_CursosVirtuales {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Patua One", cursive;
+  font-size: 20px;
+  height: 160px; }
+
+.Formacion__Titulo {
+  height: relative; }
+
+.caja_Formacion {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 70vw;
+  width: relative;
+  background-color: #E04CAB; }
+
+.formacion1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5vw 5vw 5vw 5vw;
+  height: relative;
+  width: 27vw;
+  background-color: #C63CA2;
+  padding-bottom: 3vw; }
+
+.foto_formacion1 {
+  border-radius: 15% 15% 0 0;
+  width: 100%; }
+
+.TituloFormacion {
+  text-align: center;
+  font-family: "Patua One", cursive;
+  font-size: 25px;
+  overflow-wrap: break-word;
+  background-image: url(mediacoder/fondoformacion.png); }
+
+.caja_descripcionFormacion {
+  width: 22vw; }
+
+.descripcionFormacion {
+  text-align: justify;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2vw; }
+
+.caja_DetallesFormacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 20vw;
+  padding-top: 3vw;
+  flex-wrap: wrap; }
+
+.subtitulo1 {
+  letter-spacing: 0.5px;
+  text-align: center;
+  width: relative;
+  font-family: "Patua One", cursive;
+  font-size: 1.6vw;
+  font-weight: 100;
+  color: white; }
+
+.hora {
+  width: relative; }
+
+.textosubtitulo1 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2vw; }
+
+.caja_comprarformacion {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 30px 30px 30px 30px;
+  width: relative;
+  height: relative;
+  background-color: #E04CAB; }
+
+.preguntas-frecuentes-imagen {
+  width: 100%; }
+
+.separador-formacion {
+  width: 100%; }
+
+.caja_PreguntasFrecuentes {
+  width: 100%;
+  height: 70vw;
+  background-color: #F4F4F4; }
+
+.caja_PreguntasFrecuentes2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-around; }
+
+.preguntasFrecuentes {
+  font-family: "Patua One", cursive;
+  font-size: 2vw; }
+
+.FAQ {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  height: 25vw; }
+
+details {
+  width: 38vw;
+  margin-top: 20px;
+  height: relative;
+  background-color: #C63CA2;
+  padding: 5px 0 0 0; }
+
+summary {
+  padding: 5px 0 5px 5px;
+  font-family: "Patua One", cursive;
+  font-size: 1.6vw;
+  color: white; }
+
+.respuesta {
+  margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1vw;
+  color: white; }
+
+/****FORMACIÓN END***/
+/****SOBRE MI START***/
+.SobreMi__Decripcion-Caja {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(../mediacoder/bannersobremi.jpg);
+  background-size: cover;
+  height: 40vw; }
+
+.SobreMi-texto-caja {
+  display: flex;
+  justify-content: space-around;
+  width: 100%; }
+
+.Descripcion {
+  font-family: "Patua One", cursive;
+  font-size: 1.6vw;
+  line-height: 1.3;
+  text-align: center;
+  font-weight: bold;
+  width: 100%; }
+
+.SobreMi-Titulo {
+  align-content: center;
+  padding-top: 90px;
+  font-family: "Patua One", cursive;
+  font-size: 25px; }
+
+.SobreMi__Fotos_caja {
+  height: relative;
+  background-color: #E8E8E8; }
+
+.SobreMi__Fotos_caja1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  padding-top: 50px;
+  width: relative; }
+
+.SobreMi__Fotos_caja2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  width: relative; }
+
+.SobreMi__Fotos__Texto {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5vw;
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.3;
+  color: #C63CA2;
+  width: 10vw; }
+
+.SobreMi__Fotos__Texto--modified {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5vw;
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.3;
+  color: #C63CA2;
+  width: 10vw; }
+
+.cursosYCharlas {
+  display: flex;
+  flex-direction: row;
+  height: relative;
+  width: 100%; }
+
+.caja_Cursos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-between;
+  height: relative;
+  width: 60vw;
+  background-color: #C63CA2; }
+
+.entrevistas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-between;
+  height: relative;
+  width: 60vw;
+  background-color: #E04CAB; }
+
+.titulo_seccionCursos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Patua One", cursive;
+  font-size: 1.6vw; }
+
+.caja_CursoSobreMi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: relative;
+  margin-bottom: 20px; }
+
+.titulo_curso {
+  text-align: center;
+  font-family: "Patua One", cursive;
+  font-size: 1.4vw;
+  letter-spacing: 0.6px;
+  color: #E8E8E8; }
+
+.descripcion_curso {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2vw;
+  text-align: center; }

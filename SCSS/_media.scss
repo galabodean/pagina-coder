@@ -1,0 +1,278 @@
+@media only screen and (max-width: 320px){
+	body{
+		width: relative;
+		height: relative;
+	}
+	#cajatitulo{
+		height: 11%;
+	}
+	.Titulo-Principal{
+		font-size: 1.2em;
+	}
+	.descripcion{
+		font-size: 0.9em;
+	}
+	//frase index
+	.Frase__texto{
+		line-height: 0.3em;
+		font-size: 8px;
+	}
+
+	.Frase{
+		background-image: url(../mediacoder/fondofrase_320.png);
+		background-position: inherit;
+	}
+	//formacion index{
+		.cajaTitulo{
+			padding-top: 20vw;
+		}
+		.Titulo-Principal_Caja{
+			padding-top: 20vw;
+		}
+	.Formacion-Index__Descripcion{
+		margin-right:20px;
+	}
+	
+	//blog index
+	.Blog__Entradas{
+		flex-wrap: wrap;
+		justify-content: space-between;
+
+
+		height: 170vw;
+	}
+	.Blog__Entrada{
+		height: 20%;
+	}
+	.Blog__Entrada-Titulo{
+		font-size: 0.5em;
+	}
+	//Formacion
+	.Bibliografia-Index__Descripcion{
+		justify-content: space-around;
+		align-items:center;
+		background-color: yellow;
+		width: 100%;
+	}
+	.Formacion__Titulo__Caja{
+		background-position: left 30%;
+	}
+	.FAQ{
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+	.caja_textoPreguntasFrecuentes{
+		text-align: center;
+	}
+	.caja_DetallesFormacion{
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+	//Blog
+	.Blog__Titulo-Principal-Caja--modified{
+		padding-top:10vw;
+	}
+	//Sobre mi
+	.imagenRedonda--modified{
+		width: 20vw;
+	}
+	//Contacto
+	.caja_Contacto{
+		padding-top:10vw;
+		padding-bottom:50vw;
+	}
+}
+
+@media only screen and (max-width: 375px){
+	.cajainicio{
+		flex-direction: row;
+	}
+
+	//formacion
+	.Formacion__Titulo__Caja{
+		flex-direction: row;
+	}
+	.separador-formacion{
+		width: 100vw;
+	}
+	.cursosYCharlas{
+		width: 100%;
+	}
+	.caja_Cursos{
+		padding-right:20vw;
+	}
+}
+
+
+@media only screen and (max-width: 425px){
+		body{
+		width: relative;
+		height: relative;
+	}
+	.Titulo-Principal{
+		font-size: 1em;
+		text-align: center;
+	}
+	.cajainicio{
+		padding-top: 15%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		background-size: cover;
+	}
+	.section-titulos{
+		width: 480vw;
+		height: 60%;
+	}
+	#cajaSubtitulos{
+		justify-content: space-around;
+		width: 90%;
+		margin-left: 20px;
+		font-size: 15px;
+	}
+	.cajadescripcion{
+		margin-left: 20px;
+		width: 90%;
+		font-size: 0.8em;
+	}
+
+	#cajalogo{
+		width: 40vw;
+		margin-bottom: 10px;
+	}
+	.logo{
+		width: 40vw;
+		height: 40vw;
+	}
+
+	//FRase
+	.Frase{
+		background-image: url(../mediacoder/fondofrase_480.png);
+		background-position: inherit;
+	}
+
+	// Formacion index
+
+	//blog
+	.imagenentrada{
+		width: 100%;
+	} 
+	.Blog__Entrada{
+		height: 500px;
+	}
+
+	.Blog{
+		height: relative;
+	}
+	.Blog__Entrada-Titulo{
+		font-size: $titulo-h1-celular;
+	}
+	.Blog__Entrada-Texto-Caja{
+		font-size: 0.5em;
+	}
+	.Blog__Entrada{
+		height: relative;
+	}
+	.Blog__Titulo-Principal-Caja--modified{
+		height: 160px;
+	}
+	.Blog__Entradas{
+		height: relative;
+	}
+	.Formacion__Titulo__Caja{
+		width: 100%;
+		background-position: left 30%;
+	}
+
+	.foto_formacion1{
+		width: 100%;
+	}
+	.tituloFormacion{
+		font-size: $titulo-h1-celular;
+	}
+
+	.descripcionFormacion{
+		width: 80%;
+		font-size: $texto-celular;
+	}
+	.caja_DetallesFormacion{
+		width: 180px;
+		justify-content: space-around;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.subtitulo1{
+		font-size:10;
+	}
+	.Boton_caja--modified_Formacion{
+		width: 100%;
+	}
+	.preguntas-frecuentes-imagen{
+		width: 40%;
+	}
+	.separador-formacion{
+	width: 100vw;
+	}
+	.FAQ{
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+	.preguntasFrecuentes{
+		font-size: 1em;
+	}
+	details{
+		margin-top: 30px;
+	}
+	summary{
+		font-size: 0.6em;
+	}
+
+	//SOBREMI
+	.SobreMi__Decripcion-Caja{
+		background-position:center;
+	}
+	.cursosYCharlas{
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
+
+	//BIBLIOGRAFIA
+
+	.cajaTitulo__Biblio{
+		padding-top:15vw;
+	}
+	//Contacto
+	.Contacto__Titulo__Caja{
+		flex-direction: flex-end;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	body{
+		width: relative;
+		height: relative;
+	}
+	.imagenRedonda--modified{
+		width: 20vw;
+	}
+
+	//BIBLIO
+	.fondobiblio_768{
+		max-width: 768px;
+	}
+	.imagen_entrada{
+		max-width: 150px;
+		border-radius: 30px 30px 30px 30px;
+	}
+	//SOBREMI
+
+	.caja_Cursos{
+		padding:0 70px 0 70px;
+	}
+	.entrevistas{
+		padding:0 70px 0 70px;
+	}
+} 
